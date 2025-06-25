@@ -12,7 +12,8 @@
 
 
 ## 📺 デモ動画  
-![Videotogif](https://github.com/user-attachments/assets/534b0d7d-820c-4f51-b8c6-6c884fc9235c)
+
+![Videotogif-2](https://github.com/user-attachments/assets/a9b768ff-295c-4a66-900b-b74aeeac7e49)
 
 ---
 
