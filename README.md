@@ -72,6 +72,89 @@ Node.js、Express、MongoDBを活用したフルスタックWebアプリ開発�
 - フロントエンドをReactなどのモダンフレームワークにリファクタリング  
   → 特に**TypeScriptとReactを使った設計・実装のリファクタリング**を検討しています。型安全性を高め、コードの保守性と拡張性を強化したいと考えています。   
 - モバイルレスポンシブ対応・UI/UXの向上  
-- ユーザーのお気に入り登録機能  
+- ユーザーのお気に入り登録機能
+
+
+##English version
+---
+
+# YelpCamp - Campground Review and Search App
+
+This is a full-stack web application that allows users to browse, search, register, and manage campgrounds using data stored in MongoDB.  
+Users can view a list of campgrounds, see detailed information, create new entries, and edit or delete existing ones.  
+※ This app was built as a learning record based on an online video course.
+
+---
+
+## 🏠 Home Page Screenshot
+
+![demo-2](https://github.com/user-attachments/assets/b95d5f48-0915-4628-87b9-006df316ac97)
+
+---
+
+## 📺 Demo Video
+
+![demo-gif](https://github.com/user-attachments/assets/a9b768ff-295c-4a66-900b-b74aeeac7e49)
+
+---
+
+## 🔗 Deployment URL
+
+- 🚀 Live App: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com)
+
+---
+
+## 🎯 Purpose of Learning
+
+The goal of this project was to deepen my understanding of full-stack web development using Node.js, Express, and MongoDB.
+
+Through building this app, I gained experience in:
+
+- Designing RESTful APIs and creating servers with Express  
+- Using MongoDB and Mongoose for database operations  
+- Generating dynamic HTML with the EJS template engine  
+- Implementing user authentication and authorization  
+- Handling file uploads (managing campground images)  
+- Integrating frontend and backend systems effectively  
+
+---
+
+## 🚀 Key Features
+
+- Browse a list of campgrounds  
+- Search by campground name or features  
+- View detailed campground pages  
+- Add new campgrounds (with image upload)  
+- Edit or delete registered campgrounds  
+- User registration and login (access control by authentication)  
+
+---
+
+## 🛠 Technologies Used
+
+| Category       | Technologies                         |
+|----------------|--------------------------------------|
+| Frontend       | EJS, Bootstrap                       |
+| Backend        | Node.js, Express                     |
+| Database       | MongoDB Atlas, Mongoose              |
+| Deployment     | Heroku                               |
+| Authentication | Passport.js (Local Strategy)         |
+| Map Integration| Mapbox                               |
+| File Upload    | Cloudinary, Multer                   |
+| Validation     | Joi                                  |
+| Session Mgmt   | express-session, connect-mongo       |
+
+---
+
+## 🔧 Future Improvements and Features
+
+- Refactor frontend using modern frameworks like React  
+  → Especially considering a **TypeScript + React-based refactor** to improve type safety, maintainability, and scalability  
+- Improve UI/UX with responsive design for mobile devices  
+- Add favorite/bookmark feature for logged-in users  
+
+---
+
+
 
 
