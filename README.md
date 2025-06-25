@@ -5,6 +5,12 @@
 
 ---
 
+## 🔗 デプロイ先
+
+- 🚀 本番環境: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds)
+  
+---
+
 ## 📺 デモ動画  
 準備中・・・
 
@@ -34,15 +40,20 @@
 - 登録済みキャンプ場の編集・削除  
 - ユーザー登録・ログイン機能によるアクセス制御  
 
+
 ---
 
-## 🔧 使用技術
+## 🛠 使用技術
 
-- Node.js  
-- Express  
-- MongoDB & Mongoose  
-- EJS（テンプレートエンジン）  
-- Multer（画像アップロード処理）  
-- Passport.js（認証）  
-- CSSフレームワーク（必要に応じて）  
+| 分野         | 技術                                |
+|--------------|-------------------------------------|
+| フロントエンド | EJS, Bootstrap                      |
+| バックエンド   | Node.js, Express                   |
+| データベース   | MongoDB Atlas, Mongoose            |
+| デプロイ       | Heroku                             |
+| 認証・認可     | Passport.js (Local Strategy)       |
+| 地図機能       | Mapbox                             |
+| ファイル管理   | Cloudinary, Multer                 |
+| バリデーション | Joi                                 |
+| セッション管理 | express-session, connect-mongo     |
 
