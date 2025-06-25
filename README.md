@@ -7,7 +7,7 @@
 
 ## 🔗 デプロイ先
 
-- 🚀 本番環境: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds)
+- 🚀 本番環境: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com)
   
 ---
 
