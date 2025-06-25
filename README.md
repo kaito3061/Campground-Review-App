@@ -79,7 +79,7 @@ Node.js、Express、MongoDBを活用したフルスタックWebアプリ開発�
 
 
 
-#English version
+# English version
 ---
 
 # YelpCamp - Campground Review and Search App
