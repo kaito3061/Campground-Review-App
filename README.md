@@ -1,13 +1,61 @@
-# YelpCamp
+# 🌲 YelpCamp - キャンプ場レビューアプリ
 
-キャンプ場レビューアプリです。MongoDB, Express, Node.js を使って構築しています。
+YelpCampは、キャンプ場の情報を投稿・閲覧・レビューできるWebアプリです。MongoDB、Express、Node.js、EJSを活用して構築されています。
 
-## URL
-[Herokuで公開中](https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds)
+---
 
-## 主な技術スタック
-- Node.js
-- Express
-- MongoDB Atlas
-- EJS
-- Heroku
+## 🔗 デプロイ先
+
+- 🚀 本番環境: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds)
+
+---
+
+## 🛠 使用技術
+
+| 分野         | 技術                                |
+|--------------|-------------------------------------|
+| フロントエンド | EJS, Bootstrap                      |
+| バックエンド   | Node.js, Express                   |
+| データベース   | MongoDB Atlas, Mongoose            |
+| デプロイ       | Heroku                             |
+| 認証・認可     | Passport.js (Local Strategy)       |
+| 地図機能       | Mapbox                             |
+| ファイル管理   | Cloudinary, Multer                 |
+| バリデーション | Joi                                 |
+| セッション管理 | express-session, connect-mongo     |
+
+---
+
+## 📸 主な機能
+
+- ✅ ユーザー登録 / ログイン / ログアウト
+- ✅ キャンプ場の投稿・編集・削除（画像付き）
+- ✅ 各キャンプ場のレビュー投稿・削除
+- ✅ 認可処理（作成者のみ編集・削除可）
+- ✅ Mapboxによる地図表示
+- ✅ Cloudinaryによる画像管理
+- ✅ フラッシュメッセージ通知
+- ✅ Herokuデプロイ対応
+
+---
+
+## 🚀 セットアップ手順（ローカル）
+
+```bash
+# リポジトリをクローン
+git clone https://github.com/kaito3061/YelpCamp.git
+cd YelpCamp
+
+# パッケージをインストール
+npm install
+
+# .env ファイルを作成して以下を記述
+DATABASE_URL=your-mongodb-connection-string
+MAPBOX_TOKEN=your-mapbox-token
+CLOUDINARY_CLOUD_NAME=your-cloud-name
+CLOUDINARY_KEY=your-cloudinary-key
+CLOUDINARY_SECRET=your-cloudinary-secret
+SESSION_SECRET=your-secret-session
+
+# アプリを起動
+node app.js
