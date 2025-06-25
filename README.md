@@ -37,25 +37,5 @@ YelpCampは、キャンプ場の情報を投稿・閲覧・レビューできる
 - ✅ フラッシュメッセージ通知
 - ✅ Herokuデプロイ対応
 
----
 
-## 🚀 セットアップ手順（ローカル）
 
-```bash
-# リポジトリをクローン
-git clone https://github.com/kaito3061/YelpCamp.git
-cd YelpCamp
-
-# パッケージをインストール
-npm install
-
-# .env ファイルを作成して以下を記述
-DATABASE_URL=your-mongodb-connection-string
-MAPBOX_TOKEN=your-mapbox-token
-CLOUDINARY_CLOUD_NAME=your-cloud-name
-CLOUDINARY_KEY=your-cloudinary-key
-CLOUDINARY_SECRET=your-cloudinary-secret
-SESSION_SECRET=your-secret-session
-
-# アプリを起動
-node app.js
