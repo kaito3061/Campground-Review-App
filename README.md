@@ -11,10 +11,6 @@
   
 ---
 
-## 📺 デモ動画  
-準備中・・・
-
----
 
 ## 開発の背景
 
@@ -56,4 +52,6 @@
 | ファイル管理   | Cloudinary, Multer                 |
 | バリデーション | Joi                                 |
 | セッション管理 | express-session, connect-mongo     |
+
+
 
