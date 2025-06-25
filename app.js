@@ -193,8 +193,9 @@ app.use((err, req, res, next) => {
     }
     res.status(statusCode).render('error', { err });
 });
-app.listen(3000, () => {
-    console.log('ポート3000でリクエストを待受中・・・・')
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+    console.log(`ポート${port}でリクエストを待受中・・・・`)
 });
 
 
