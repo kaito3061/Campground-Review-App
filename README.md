@@ -17,7 +17,7 @@
 
 ---
 
-## 🔗 デプロイ先
+## 🔗 デプロイ先(推奨ブラウザ　Google Crhome）※Safariなどは文字化けの可能性があります。
 
 - 🚀 本番環境: [https://nameless-waters-22856-b132721bcca3.herokuapp.com/campgrounds](https://nameless-waters-22856-b132721bcca3.herokuapp.com)
   
