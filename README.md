@@ -85,7 +85,6 @@ Node.js、Express、MongoDBを活用したフルスタックWebアプリ開発�
 
 This is a full-stack web application that allows users to browse, search, register, and manage campgrounds using data stored in MongoDB.  
 Users can view a list of campgrounds, see detailed information, create new entries, and edit or delete existing ones.  
-※ This app was built as a learning record based on an online video course.
 
 ---
 
