@@ -54,28 +54,7 @@ module.exports.createCampground = async (req, res, next) => {
     }
 };
 
-// module.exports.createCampground = async (req, res) => {
 
-//         console.log('createCampground開始');
-//         console.log('req.files:', req.files);
-
-//         // if (!req.body.campground) throw new ExpressError('不正なキャンプ場のデータです', 400);
-//         const campground = new Campground(req.body.campground);
-//         campground.author = req.user._id;
-//         campground.images = req.files.map(f => ({
-//             url: f.path, filename: f.filename,
-//         }));
-//         await campground.save();
-//         // console.log(campground);
-//         req.flash('success', '新しいキャンプ場を登録しました');
-//         res.redirect(`/campgrounds/${campground._id}`);
-
-
-//         req.flash('error', e.message); // ← `e` がないとここで失敗
-//         console.log('error', e.message); // ← ここでも undefined.message になって落ちる
-//         res.redirect('/campgrounds'); // ← これも入れた方がいい
-
-// };
 
 
 module.exports.renderEditForm = async (req, res) => {
